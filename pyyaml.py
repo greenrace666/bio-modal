@@ -15,5 +15,5 @@ def main():
     with open('exp.yaml','w') as file2:
         file2.write(yaml_content)
     with open('exp.yaml','r') as file1:
-        data1=str(file)
+        data1=str(file1)
     run.remote(data1)
